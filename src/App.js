@@ -1,18 +1,14 @@
-import Counter from './components/Counter';
-import CounterTS from './components/CounterTS.tsx'
-import './App.css';
+// import './App.css';
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter value="0" />
-        <CounterTS value={0} />
+        <Form />
       </header>
     </div>
   );
 }
 
 export default App;
-
-
